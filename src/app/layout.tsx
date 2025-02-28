@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh-TW">
+    <html lang="zh-TW" className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
         <TagtooScript />
       </head>
