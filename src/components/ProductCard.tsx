@@ -5,7 +5,7 @@ const ProductCard = () => {
   return (
     <div className={styles.productCard}>
       <Image
-        src="https://picsum.photos/300/200"
+        src="https://picsum.photos/id/237/300/200"
         alt="產品圖片"
         className={styles.productImage}
         width={300}
